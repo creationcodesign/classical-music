@@ -6,12 +6,10 @@ export default function Composers() {
     const [composers] = useState(data)
 
     return (
-        <div className='composer-container'>
-            <ul className="composer-block">
-                {composers.map(data => {
-                    return <Composer key={data} data={data} />
-                })}
-            </ul>
-        </div>
+        <ul className="composer-list">
+            {composers.map(data => {
+                return <Composer key={data} data={data} />
+            })}
+        </ul>
     )
 }
