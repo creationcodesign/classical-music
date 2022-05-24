@@ -6,7 +6,7 @@ const composers = [
         birthPlace: "Salzburg, Austria",
         birthDate: "27.01.1756",
         music: "fantasia_in_minor_K397",
-        portrait: "mozart.jpg"
+        portrait: "Mozart.jpg"
     },
     {
         id: 2,
@@ -15,16 +15,16 @@ const composers = [
         birthPlace: "Venedig, Italy",
         birthDate: "04.03.1678",
         music: "",
-        portrait: ""
+        portrait: "vivaldi.jpg"
     },
     {
         id: 3,
         firstName: "Pyotr Ilyich",
-        lastName: "Tchaikovski",
-        birthPlace: "Kamsko-Wotkinski Sawod, Russland",
+        lastName: "Tchaikovsky",
+        birthPlace: " Wotkinsk, Russia",
         birthDate: "07.05.1840",
         music: "",
-        portrait: ""
+        portrait: "tchaikovsky.jpg"
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const composers = [
         birthPlace: "Genua, Italy",
         birthDate: "27.10.1782",
         music: "",
-        portrait: ""
+        portrait: "paganini.jpg"
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const composers = [
         birthPlace: "Bonn, Germany",
         birthDate: "16.12.1770",
         music: "",
-        portrait: ""
+        portrait: "Beethoven.jpg"
     }
 ]
 
