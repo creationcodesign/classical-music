@@ -24,11 +24,16 @@ export default function Composer() {
                                 <div className="content-info__birth-place">{el.birthPlace}</div>
                                 <div className="content-info__birth-date">{el.birthDate}</div>
                             </div>
-                            <div className="composer-content__music">music</div>
+                            <div className="composer-content__music">{el.musicName}</div>
                         </div>
                         <div className="container-gem">
                             <img src={gemImg} alt="gem" width="250" className="container-gem__img" />
                         </div>
+                    </div>
+                    <div className="player">
+                        <audio controls id="audio" >
+                            <source src={require(`../assets/music/${el.musicSrc}`)} type="audio/mpeg" />
+                        </audio>
                     </div>
                 </div>
             ))}
