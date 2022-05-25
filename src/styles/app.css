@@ -52,8 +52,9 @@ img {
 }
 
 .composer-content {
-  width: 97vw;
-  height: calc(100vh - 150px - 38px);
+  max-width: 95vw;
+  height: calc(100vh - 220px);
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -92,4 +93,25 @@ img {
 audio {
   width: 50vw;
   margin: 0 auto;
+}
+
+
+.container-gem__img {
+  animation: swing 3.5s ease-in-out forwards infinite;
+}
+
+@keyframes swing {
+
+  0%,
+  10% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(3deg);
+  }
 }
