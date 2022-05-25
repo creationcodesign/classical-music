@@ -5,8 +5,9 @@ const composers = [
         lastName: "Mozart",
         birthPlace: "Salzburg, Austria",
         birthDate: "27.01.1756",
-        music: "fantasia_in_minor_K397",
-        portrait: "Mozart.jpg"
+        portrait: "Mozart.jpg",
+        musicName: "Lacrimosa",
+        musicSrc: "Mozart-Lacrimosa.webm"
     },
     {
         id: 2,
@@ -14,8 +15,9 @@ const composers = [
         lastName: "Vivaldi",
         birthPlace: "Venedig, Italy",
         birthDate: "04.03.1678",
-        music: "",
-        portrait: "vivaldi.jpg"
+        portrait: "Vivaldi.jpg",
+        musicName: "Winter - The Four Seasons",
+        musicSrc: "Vivaldi-Winter-TheFourSeasons.webm"
     },
     {
         id: 3,
@@ -23,8 +25,9 @@ const composers = [
         lastName: "Tchaikovsky",
         birthPlace: " Wotkinsk, Russia",
         birthDate: "07.05.1840",
-        music: "",
-        portrait: "tchaikovsky.jpg"
+        portrait: "Tchaikovsky.jpg",
+        musicName: "Dance of the Sugar Plum - Fairy Nutcracker",
+        musicSrc: "Tchaikovsky_Dance-of-the-Sugar-Plum-Fairy_Nutcracker.webm"
     },
     {
         id: 4,
@@ -32,8 +35,9 @@ const composers = [
         lastName: "Paganini",
         birthPlace: "Genua, Italy",
         birthDate: "27.10.1782",
-        music: "",
-        portrait: "paganini.jpg"
+        portrait: "Paganini.jpg",
+        musicName: "La Campanella",
+        musicSrc: "Paganini_La-campanella.webm"
     },
     {
         id: 5,
@@ -41,8 +45,9 @@ const composers = [
         lastName: "Beethoven",
         birthPlace: "Bonn, Germany",
         birthDate: "16.12.1770",
-        music: "",
-        portrait: "Beethoven.jpg"
+        portrait: "Beethoven.jpg",
+        musicName: "Moonlight Sonata 3rd Movement",
+        musicSrc: "Beethoven_Moonlight-Sonata-3rd-Movement.webm"
     }
 ]
 
