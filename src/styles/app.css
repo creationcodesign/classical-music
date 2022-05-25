@@ -44,6 +44,31 @@ img {
   border-radius: 3px;
 }
 
+.page {
+  text-align: center;
+  color: #fff;
+}
+
+.home {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.content__link {
+  margin-top: 2rem;
+  color: #fff;
+}
+
 /* COMPOSER */
 .composer-container {
   display: flex;
@@ -98,6 +123,17 @@ audio {
 
 .container-gem__img {
   animation: swing 3.5s ease-in-out forwards infinite;
+}
+
+/* specific */
+.big {
+  font-size: 3em;
+  color: #f7cba28f;
+}
+
+.accent {
+  font-size: 1.5em;
+  color: #f8dcc2;
 }
 
 @keyframes swing {
