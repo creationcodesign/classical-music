@@ -16,9 +16,8 @@ export default function Home() {
     return (
         <div className='page home'>
             <h2 className='home__title'>
-                {/* <span className='big'> 5 </span> */}
                 <br></br>
-                <span className='accent'>famouse composers</span>
+                <span className='accent'>5 famouse composers</span>
             </h2>
             <div className='home__content'>
                 {composer}
