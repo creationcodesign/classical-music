@@ -4,13 +4,22 @@
   padding: 0;
 }
 
+:root {
+  --white: #fefcfc;
+  --white-gray: #cfcccc;
+  --white-accent: #f1eae3;
+  --black: #000;
+  --black-accent: #1d1c1c;
+  --accent: #d69464;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'PT Sans', sans-serif;
-  background-color: #000;
+  background-color: var(--black);
 }
 
 body,

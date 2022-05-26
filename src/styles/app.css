@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
 .app {
   max-width: 1400px;
   margin: 0 auto;
+  font-family: 'Judson', serif;
+  letter-spacing: 0.07em;
 }
 
 /* HEADER */
@@ -9,8 +14,20 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/img/header.png);
+  background-image: url(../assets/img/piano-img.png);
   background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.header-overlay {
+  width: 100vw;
+  height: 4rem;
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  background: rgba(5, 5, 5, 0.65);
 }
 
 /* NAV */
@@ -18,12 +35,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--black-accent);
 }
 
 .nav__link {
   margin: 0 0.5rem;
   padding: 1rem;
-  color: #fff;
+  font-weight: bold;
+  color: var(--white-accent);
+  z-index: 100;
 }
 
 /* GENERAL */
@@ -32,12 +52,18 @@ a {
 }
 
 a:hover {
-  color: #d69464;
+  color: var(--accent);
 }
 
-h1 {
-  color: #FFFFFF;
+.header__title {
+  color: var(--white-gray);
   text-shadow: 0px 19px 3px rgba(0, 0, 0, 0.35);
+}
+
+.header__link {
+  margin-top: -0.5rem;
+  color: var(--white-gray);
+  z-index: 100;
 }
 
 img {
@@ -46,7 +72,7 @@ img {
 
 .page {
   text-align: center;
-  color: #fff;
+  color: var(--white);
 }
 
 .home {
@@ -64,16 +90,24 @@ img {
   gap: 2.3rem;
 }
 
+.home__title {
+  margin-top: -0.5rem;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Charm', cursive;
+  color: var(--white-accent);
+}
+
 .content__link {
   margin-top: 2rem;
-  color: #fff;
+  color: var(--white-accent);
 }
 
 /* COMPOSER */
 .composer-container {
   display: flex;
   flex-direction: column;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 .composer-content {
@@ -89,12 +123,26 @@ img {
   height: 25vh;
 }
 
+.content-info__name {
+  font-family: 'Charm', cursive;
+  margin-bottom: 2rem;
+}
+
 .content-info h2 {
   font-size: 3.5em;
 }
 
 .content-info h3 {
   font-size: 2.5em;
+}
+
+.info-birth {
+  color: var(--white-gray);
+}
+
+.composer-content__music {
+  font-size: 1.2em;
+  color: var(--white);
 }
 
 .composer-content__portrait {
@@ -112,7 +160,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1d1c1c;
+  background-color: var(--black-accent);
 }
 
 audio {
@@ -120,21 +168,10 @@ audio {
   margin: 0 auto;
 }
 
-
 .container-gem__img {
   animation: swing 3.5s ease-in-out forwards infinite;
 }
 
-/* specific */
-.big {
-  font-size: 3em;
-  color: #f7cba28f;
-}
-
-.accent {
-  font-size: 1.5em;
-  color: #f8dcc2;
-}
 
 @keyframes swing {
 
