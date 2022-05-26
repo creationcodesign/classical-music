@@ -15,10 +15,7 @@ export default function Home() {
 
     return (
         <div className='page home'>
-            <h2 className='home__title'>
-                <br></br>
-                <span className='accent'>5 famouse composers</span>
-            </h2>
+            <h2 className='home__title'>5 Famouse Composers</h2>
             <div className='home__content'>
                 {composer}
             </div>

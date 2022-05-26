@@ -20,9 +20,9 @@ export default function Composer() {
                                 <h2>{el.lastName}</h2>
                                 <h3>{el.firstName}</h3>
                             </div>
-                            <div className="content-info">
-                                <div className="content-info__birth-place">{el.birthPlace}</div>
-                                <div className="content-info__birth-date">{el.birthDate}</div>
+                            <div className="content-info info-birth">
+                                <div className="info__birth-place">{el.birthPlace}</div>
+                                <div className="info__birth-date">{el.birthDate}</div>
                             </div>
                             <div className="composer-content__music">{el.musicName}</div>
                         </div>
