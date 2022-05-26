@@ -188,3 +188,32 @@ audio {
     transform: rotate(3deg);
   }
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+  .home {
+    height: auto;
+  }
+
+  .home__content {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+
+  .home__title {
+    margin-top: 1.5rem;
+  }
+
+  .composer-img {
+    width: 35vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .composer-img {
+    width: 65vw;
+    height: auto;
+  }
+}
