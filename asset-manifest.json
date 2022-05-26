@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.554954ef.css",
-    "main.js": "./static/js/main.36df811a.js",
+    "main.js": "./static/js/main.6c07d9e1.js",
     "static/js/787.55032bc7.chunk.js": "./static/js/787.55032bc7.chunk.js",
     "static/media/Paganini_La-campanella.webm": "./static/media/Paganini_La-campanella.9c01321baa62edfb65a1.webm",
     "static/media/Beethoven_Moonlight-Sonata-3rd-Movement.webm": "./static/media/Beethoven_Moonlight-Sonata-3rd-Movement.7e106fbcd3afab59229a.webm",
@@ -19,11 +19,11 @@
     "static/media/Tchaikovsky.jpg": "./static/media/Tchaikovsky.690a6684da950509fb1f.jpg",
     "index.html": "./index.html",
     "main.554954ef.css.map": "./static/css/main.554954ef.css.map",
-    "main.36df811a.js.map": "./static/js/main.36df811a.js.map",
+    "main.6c07d9e1.js.map": "./static/js/main.6c07d9e1.js.map",
     "787.55032bc7.chunk.js.map": "./static/js/787.55032bc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.554954ef.css",
-    "static/js/main.36df811a.js"
+    "static/js/main.6c07d9e1.js"
   ]
 }
