@@ -22,7 +22,7 @@ header {
 }
 
 .header-overlay {
-  width: 100vw;
+  width: 100%;
   height: 4rem;
   position: absolute;
   top: 0px;
@@ -217,6 +217,36 @@ audio {
 }
 
 /* RESPONSIVE */
+/* large screen */
+@media only screen and (min-width: 1900px) {
+  .home__content {
+    gap: 5rem;
+  }
+
+  .composer-container {
+    height: auto;
+  }
+
+  .composer-content {
+    height: 50vh;
+  }
+
+  .composer-content__portrait {
+    align-self: center;
+  }
+
+  .content-info {
+    height: 11vw;
+  }
+
+  .container-gem {
+    width: 20rem;
+    height: auto;
+    align-self: center;
+  }
+}
+
+/* tablet */
 @media only screen and (max-width: 980px) {
   .home {
     height: auto;
@@ -253,6 +283,7 @@ audio {
   }
 }
 
+/* smartphone */
 @media only screen and (max-width: 605px) {
   .composer-img {
     width: 65vw;
