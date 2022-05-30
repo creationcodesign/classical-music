@@ -195,26 +195,36 @@ audio {
   margin: 0 auto;
 }
 
+.container-gem {
+  align-self: flex-end;
+  margin-bottom: 0.8rem;
+  /* transform: rotate(1deg); */
+}
+
 .container-gem__img {
+  filter: opacity(80%);
+  filter: sepia(10%);
+  transition: 1s ease-in-out;
+}
+
+.container-gem__img:hover {
+  filter: opacity(99%);
+  filter: sepia(20%);
   animation: swing 3.5s ease-in-out forwards infinite;
 }
 
 
 @keyframes swing {
+  50% {
+    transform: rotate(2deg);
+  }
 
   0%,
-  10% {
-    transform: rotate(3deg);
-  }
-
-  50% {
-    transform: rotate(8deg);
-  }
-
   100% {
-    transform: rotate(3deg);
+    transform: rotate(1deg);
   }
 }
+
 
 /* RESPONSIVE */
 /* large screen */

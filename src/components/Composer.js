@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useParams } from "react-router-dom"
 import data from '../assets/data/data.js'
-import gemImg from '../assets/img/img.png'
+
 
 export default function Composer() {
     const [composers] = useState(data)
@@ -27,7 +27,7 @@ export default function Composer() {
                             <div className="composer-content__music">{el.musicName}</div>
                         </div>
                         <div className="container-gem">
-                            <img src={gemImg} alt="gem" width="250" className="container-gem__img" />
+                            <img src={require(`../assets/img/${el.noteSheet}`)} alt={el.musicName} width="250" className="container-gem__img" />
                         </div>
                     </div>
                     <div className="player">
