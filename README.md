@@ -8,4 +8,4 @@ This website based on React JS and deployed on GitHub Pages.
 <img src="./src/assets/img/mockup.jpg" style="border-radius:3px;" />
 </a>
 
-### [Live Demo](https://versi-on.github.io/classical-music/)
+### [Live Demo](https://visi-on.github.io/classical-music/)
